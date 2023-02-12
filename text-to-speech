@@ -1,0 +1,44 @@
+
+'david
+Dim  DVoice
+Set DVoice = CreateObject("SAPI.SpVoice")
+Set DVoice.Voice = DVoice.GetVoices.Item(0)
+DVoice.Rate = 0
+DVoice.Volume = 99
+DVoice.Speak "Hello, my name is David"
+
+'zira
+Dim  ZVoice
+Set ZVoice = CreateObject("SAPI.SpVoice")
+Set ZVoice.Voice = ZVoice.GetVoices.Item(1)
+ZVoice.Rate = 0
+ZVoice.Volume = 99
+ZVoice.Speak "Hello, my name is Zira"
+
+
+'sabina
+Dim  SVoice
+Set SVoice = CreateObject("SAPI.SpVoice")
+Set SVoice.Voice = ZVoice.GetVoices.Item(2)
+SVoice.Rate = -1
+SVoice.Volume = 100
+SVoice.Speak "Hola, mi nombre es Sabina"
+
+'haruka
+Dim  HVoice
+Set HVoice = CreateObject("SAPI.SpVoice")
+Set HVoice.Voice = HVoice.GetVoices.Item(3)
+HVoice.Rate = -1
+HVoice.Volume = 100
+HVoice.Speak "こんにちは私の名前はハルカです"
+
+'huihui
+Dim  CVoice
+Set CVoice = CreateObject("SAPI.SpVoice")
+Set CVoice.Voice = CVoice.GetVoices.Item(4)
+CVoice.Rate = -1
+CVoice.Volume = 100
+CVoice.Speak "你好我叫小兰花"
+
+
+
